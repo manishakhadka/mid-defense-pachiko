@@ -1,0 +1,32 @@
+<style>
+    .dropdownbn {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .nav-item:hover .dropdownbn {
+        display: block;
+    }
+
+    .dropdownbn a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .dropdownbn a:hover {
+        background-color: #ddd;
+    }
+</style>
+
+<div class="nav-item">
+    <a href="#">Drinks</a>
+    <div class="dropdownbn">
+        <a href="#">Hard Drinks</a>
+        <a href="#">Soft Drinks</a>
+    </div>
+</div>
