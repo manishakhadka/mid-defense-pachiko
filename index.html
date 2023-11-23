@@ -13,6 +13,8 @@
 	<link rel="stylesheet" type="text/css" href="css/custom.css"/>
 	<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
 
+	<script src="js/custom.js"></script>
+
 	<title>Taste Tales</title>
 	
   </head>
@@ -45,12 +47,14 @@
 									      <a class="dropdown-item" href="register.html">Register</a>
 									    </div>
 									</div>
+									<!--hatako cart symbol
 									<div class="nav-item dropdown mega-dropdown">
-										<a class="nav-link" href="order.html" id="minicart" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<a class="nav-link" href="#" id="minicart" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="goToCartPage()" >
 	                                        <i class="fa fa-shopping-cart">
-												<span id="cart-count"><!--katiota items cartma ayo dekhauney--></span>
-											</i>
+												<span id="cart-count"></span>
+											</i>-->
 	                                    </a>
+									
 										<!--cart ma dekhauney tarika milauna baki,remove buttonma js halna baki,aru classma pani js halna baki
 	                                    <ul class="dropdown-menu mega-dropdown-menu" aria-labelledby="minicart">
 	                                    	<li class="row">
@@ -396,7 +400,7 @@
 										</div>
 
 										<div class="card-btn">
-											<a href="#" class="btn-primary add-to-cart">Add To Cart</a>
+											<a href="cartpage.html" class="btn-primary add-to-cart" >Add To Cart</a>
 										</div>
 									</div>
 									<div class="product-card-id">#030202</div>
@@ -430,7 +434,7 @@
 										</div>
 
 										<div class="card-btn">
-											<a href="#" class="btn-primary add-to-cart">Add To Cart</a>
+											<a href="cartpage.html" class="btn-primary add-to-cart">Add To Cart</a>
 										</div>
 									</div>
 									<div class="product-card-id">#030202</div>
@@ -456,7 +460,7 @@
 										</div>
 
 										<div class="card-btn">
-											<a href="#" class="btn-primary add-to-cart">Add To Cart</a>
+											<a href="cartpage.html" class="btn-primary add-to-cart">Add To Cart</a>
 										</div>
 									</div>
 									<div class="product-card-id">#030202</div>
@@ -491,7 +495,7 @@
 										</div>
 
 										<div class="card-btn">
-											<a href="#" class="btn-primary add-to-cart">Add To Cart</a>
+											<a href="cartpage.html" class="btn-primary add-to-cart">Add To Cart</a>
 										</div>
 									</div>
 									<div class="product-card-id">#030202</div>
@@ -526,7 +530,7 @@
 										</div>
 
 										<div class="card-btn">
-											<a href="#" class="btn-primary add-to-cart">Add To Cart</a>
+											<a href="cartpage.html" class="btn-primary add-to-cart">Add To Cart</a>
 										</div>
 									</div>
 									<div class="product-card-id">#030202</div>
@@ -560,7 +564,7 @@
 										</div>
 
 										<div class="card-btn">
-											<a href="#" class="btn-primary add-to-cart">Add To Cart</a>
+											<a href="cartpage.html" class="btn-primary add-to-cart">Add To Cart</a>
 										</div>
 									</div>
 									<div class="product-card-id">#030202</div>
@@ -586,7 +590,7 @@
 										</div>
 
 										<div class="card-btn">
-											<a href="#" class="btn-primary add-to-cart">Add To Cart</a>
+											<a href="cartpage.html" class="btn-primary add-to-cart">Add To Cart</a>
 										</div>
 									</div>
 									<div class="product-card-id">#030202</div>
@@ -621,7 +625,7 @@
 										</div>
 
 										<div class="card-btn">
-											<a href="#" class="btn-primary add-to-cart">Add To Cart</a>
+											<a href="cartpage.html" class="btn-primary add-to-cart">Add To Cart</a>
 										</div>
 									</div>
 									<div class="product-card-id">#030202</div>
@@ -656,7 +660,7 @@
 										</div>
 
 										<div class="card-btn">
-											<a href="#" class="btn-primary add-to-cart">Add To Cart</a>
+											<a href="cartpage.html" class="btn-primary add-to-cart">Add To Cart</a>
 										</div>
 									</div>
 									<div class="product-card-id">#030202</div>
@@ -690,7 +694,7 @@
 										</div>
 
 										<div class="card-btn">
-											<a href="#" class="btn-primary add-to-cart">Add To Cart</a>
+											<a href="cartpage.html" class="btn-primary add-to-cart">Add To Cart</a>
 										</div>
 									</div>
 									<div class="product-card-id">#030202</div>
@@ -716,7 +720,7 @@
 										</div>
 
 										<div class="card-btn">
-											<a href="#" class="btn-primary add-to-cart">Add To Cart</a>
+											<a href="cartpage.html" class="btn-primary add-to-cart">Add To Cart</a>
 										</div>
 									</div>
 									<div class="product-card-id">#030202</div>
@@ -751,7 +755,7 @@
 										</div>
 
 										<div class="card-btn">
-											<a href="#" class="btn-primary add-to-cart">Add To Cart</a>
+											<a href="cartpage.html" class="btn-primary add-to-cart">Add To Cart</a>
 										</div>
 									</div>
 									<div class="product-card-id">#030202</div>
@@ -1111,5 +1115,39 @@
 				}
 			})
 		</script>
+
+
+
+
+
+
+
+
+
+<!--extra haleko for cartlai functional banauna kam gareko xaina-->
+<script>
+    function addToCart(product) {
+        // Check if the cart exists in localStorage
+        let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+        // Add the selected product to the cart
+        cart.push(product);
+
+        // Save the updated cart back to localStorage
+        localStorage.setItem('cart', JSON.stringify(cart));
+
+        alert('Product added to cart!');
+
+
+    }
+</script>
+<script>
+	
+	function goToCartPage() {
+	// Add any additional logic here if needed
+	window.location.href = "cartpage.html";
+}
+</script>
+
 	</body>
 </html>
