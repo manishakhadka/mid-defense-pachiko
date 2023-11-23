@@ -31,7 +31,7 @@ a{
     bottom: 30px;
     right: 25px;
     display: none;
-	background: #009a46;
+	background:#009a46;
 }
 
 #footer-bottom{
@@ -165,7 +165,7 @@ nav.navbar.navbar-expand-lg {
 }
 
 .nav-item .dropdown-item:hover{
-	background: #00e86a;
+	background: #009a46;
 }
 
 .nav-item .dropdown>.dropdown-menu {
@@ -218,7 +218,7 @@ a.nav-link:hover{
 
 #home-slider .owl-nav .owl-next{
     font-size: 26px !important;
-    color: #009a46 !important;
+    color: #009a46!important;
     position: absolute;
     right: 0;
     top: 45%;
@@ -377,7 +377,7 @@ a.add-to-cart:hover {
 
 .product-card-discount {
     font-weight: 600;
-    background: rgba(0, 154, 70,0.8);
+    background:#009a46(0, 154, 70,0.8);
     border-radius: 50%;
     width: 60px;
     height: 60px;
