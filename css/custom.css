@@ -31,7 +31,7 @@ a{
     bottom: 30px;
     right: 25px;
     display: none;
-	background:#009a46;
+	background:#660000;
 }
 
 #footer-bottom{
@@ -42,9 +42,9 @@ a{
 }
 
 #top-header{
-	background: #345;
+	background:#660000;
 	font-size: 13px;
-	color: white;
+	color: #660000;
 	padding: 6px 0;
 }
 
@@ -63,7 +63,7 @@ a{
 
 #logo-header {
     padding: 10px;
-    background: #009a4660;
+    background: #66000060;
 }
 
 button.search-top-btn {
@@ -153,7 +153,7 @@ nav.navbar.navbar-expand-lg {
 }
 
 #main-menu .nav-item:hover {
-    background: #009a46;
+    background: #660000;
 }
 
 .nav-item .dropdown-menu {
@@ -165,7 +165,7 @@ nav.navbar.navbar-expand-lg {
 }
 
 .nav-item .dropdown-item:hover{
-	background: #009a46;
+	background: #660000;
 }
 
 .nav-item .dropdown>.dropdown-menu {
@@ -187,7 +187,7 @@ nav.navbar.navbar-expand-lg {
 
 .dropdown-item {
     padding: 5px 7px;
-    border-bottom: 1px solid #009a46;
+    border-bottom: 1px solid #660000;
 }
 
 a.nav-link {
@@ -218,7 +218,7 @@ a.nav-link:hover{
 
 #home-slider .owl-nav .owl-next{
     font-size: 26px !important;
-    color: #009a46!important;
+    color: #660000!important;
     position: absolute;
     right: 0;
     top: 45%;
@@ -232,7 +232,7 @@ a.nav-link:hover{
 
 #home-slider .owl-nav .owl-prev{
 	font-size: 26px !important;
-    color: #009a46 !important;
+    color:   #D4AF37!important;
     position: absolute;
     left: 0;
     top: 45%;
@@ -267,7 +267,7 @@ a.nav-link:hover{
 
 #footer-top .fa {
     padding: 5px;
-    color: #009a46;
+    color: #660000;
 }
 
 .card-img-wrap {
@@ -320,7 +320,7 @@ a.add-to-cart {
 }
 
 a.add-to-cart:hover {
-    background: #009a46;
+    background: #660000;
 }
 
 .section-header{
@@ -377,7 +377,7 @@ a.add-to-cart:hover {
 
 .product-card-discount {
     font-weight: 600;
-    background:#009a46(0, 154, 70,0.8);
+    background:#660000(0, 154, 70,0.8);
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -401,8 +401,8 @@ a.add-to-cart:hover {
 }
 
 .product-card-offer-valid {
-    border-top: 1px solid #009a46;
-    border-bottom: 1px solid #009a46;
+    border-top: 1px solid #660000;
+    border-bottom: 1px solid #660000;
     padding: 5px;
     margin-top: -8px;
     background: rgba(255,255,255,.85);
@@ -416,10 +416,10 @@ a.add-to-cart:hover {
 }
 
 .call-us .fa{
-    border: 1px solid #009a46;
+    border: 1px solid #660000;
     padding: 10px 12px;
     border-radius: 50%;
-    color: #009a46;
+    color: #660000;
 	margin-left: 15px;
 }
 
@@ -797,7 +797,7 @@ button.subscribe-btn {
     padding: 0 12px;
     height: 40px;
     border: none;
-    background: #009a46;
+    background: #660000;
     border-radius: 0;
     color: white;
 }
@@ -912,8 +912,8 @@ label.custom-control-label {
 }
 
 .custom-control-input:checked~.custom-control-label::before {
-    border-color: #009a46;
-    background-color: #009a46;
+    border-color: #660000;
+    background-color: #660000;
     outline: none;
 }
 
@@ -977,10 +977,10 @@ select#sortBy {
     margin-left: 6px;
 }
 .footer-social-section{
-    background: #009a46;
+    background: #660000;
 }
 .footer-social-section {
-    background: #009a46;
+    background: #660000;
     text-align: center;
     margin-top: -85px;
     margin-bottom: 20px;
@@ -995,7 +995,7 @@ select#sortBy {
     width: 40px;
     height: 40px;
     background: white;
-    color: #009a46;
+    color: #660000;
     padding: 10px;
     border-radius: 50%;
     margin: 3px;
@@ -1113,16 +1113,16 @@ a.checkout-btn:hover {
 }
 a.continue-btn {
     color: white;
-    background: #009a46;
+    background: #660000;
     padding: 10px;
     display: block;
     text-align: center;
     border: 1px solid transparent;
 }
 a.continue-btn:hover {
-    color: #009a46;
+    color: #660000;
     background: #fff;
-    border: 1px solid #009a46;
+    border: 1px solid #660000;
 }
 .cart-table {
     box-shadow: 0 0 5px #00000020;
@@ -1286,7 +1286,7 @@ button.btn-login {
     border: none;
     background: #98fb98;
     padding: 5px 15px;
-    color: #009a46;
+    color: #660000;
     font-weight: 600;
 }
 button.btn-login:hover {
@@ -1302,7 +1302,7 @@ button.btn-login:hover {
     margin: 20px 0;
 }
 a.tab-bar2.active {
-    color: #009a46;
+    color: #660000;
     font-weight: 600;
     background: #98fb98;
     padding: 10px 200px 10px 10px;
@@ -1329,7 +1329,7 @@ li.customer-list {
 }
 a.btn-bcom-customer {
     background: #98fb98;
-    color: #009a46;
+    color: #660000;
     font-weight: 600;
     padding: 10px 20px;
 }
@@ -1348,7 +1348,7 @@ a.btn-bcom-customer:hover {
     background: linear-gradient(56deg, #f6f6f6, transparent);
 }
 a.tab-bar2-1.active {
-    color: #009a46;
+    color: #660000;
     font-weight: 600;
     background: #98fb98;
     padding: 10px 110px 10px 10px;
@@ -1359,7 +1359,7 @@ button.btn-reset {
     border: none;
     background: #98fb98;
     padding: 5px 15px;
-    color: #009a46;
+    color: #660000;
     font-weight: 600;
 }
 .go-back {
@@ -1381,7 +1381,7 @@ a.link-go-back {
     font-weight: 600;
 }
 a.tab-bar2-2.active {
-    color: #009a46;
+    color: #660000;
     font-weight: 600;
     background: #98fb98;
     padding: 10px 95px 10px 10px;
@@ -1395,7 +1395,7 @@ button.btn-register {
     border: none;
     background: #98fb98;
     padding: 5px 15px;
-    color: #009a46;
+    color: #660000;
     font-weight: 600;
 }
 a.nav-link:hover {
@@ -1421,7 +1421,7 @@ h3.section-heading-wrap {
 #contact-wrap i.fa.fa-map-marker-alt, #contact-wrap i.fa.fa-phone-volume, #contact-wrap i.fa.fa-envelope {
     font-size: 20px;
     padding: 10px;
-    color: #009a46;
+    color: #660000;
 }
 
 
@@ -1453,7 +1453,7 @@ h4.order-form-heading {
 }
 button.btn-order {
     border: none;
-    background: #009a46;
+    background: #660000;
     color: white;
     padding: 5px 20px;
     margin: 5px 10px;
